@@ -1,0 +1,45 @@
+:root{
+  --lightColor: white;
+  --darkColor: darkgrey;
+  --accentColor: orange;
+
+  --primaryFont: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  --accentFont: 'Arial';
+}
+
+div#root{
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  align-items: stretch;
+}
+
+header{
+  background-color: var(--darkColor);
+  color: var(--accentColor);
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-self: stretch;
+}
+
+header>h1{
+  font-size: 5rem;
+  align-self: center;
+}
+
+main{
+  display: flex;
+  flex-direction: row;
+  justify-content: column;
+  align-items: center;
+  align-self: stretch;
+  width: 100vw;
+  height: 100vh;
+}
+
+main>.todoCard{
+  align-self: flex-start;
+  justify-self: s;
+}

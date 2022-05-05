@@ -1,0 +1,26 @@
+:root{
+  --lightColor: white;
+  --darkColor: darkgrey;
+  --accentColor: orange;
+
+  --primaryFont: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  --accentFont: 'Arial';
+}
+
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+  margin: 0;
+
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  line-height: 1.6rem;
+  font-size: 1rem;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
